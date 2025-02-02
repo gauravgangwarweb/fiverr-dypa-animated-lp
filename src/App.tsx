@@ -259,8 +259,8 @@ function App() {
         onMouseLeave={() => setIsHovering(false)}
         className=" w-full block lg:hide"
       >
-        <div className="max-w-[320px] w-full h-screen mx-auto relative flex flex-col items-center justify-center">
-          <h3 className="text-[#4663AC] text-3xl text-center font-semibold">
+        <div className="max-w-[320px] w-full h-[36rem] mx-auto relative flex flex-col items-center justify-center my-auto">
+          <h3 className="text-[#4663AC] text-4xl text-center font-semibold">
             Rejoignez <br /> MySite
           </h3>
           <p className="text-[#6C6C6C] text-xl text-center">
@@ -270,7 +270,7 @@ function App() {
             add
           </button>
           {/* top */}
-          <>
+          <div>
             <motion.img
               animate={isHovering ? { x: -40, y: -5 } : { x: 0, y: 0 }}
               transition={{
@@ -341,9 +341,9 @@ function App() {
               src="/polygon-4.png"
               alt="polygon"
             />
-          </>
+          </div>
           {/* bottom */}
-          <>
+          <div>
             <motion.img
               animate={isHovering ? { x: -30, y: -10 } : { x: 0, y: 0 }}
               transition={{
@@ -414,7 +414,7 @@ function App() {
               src="/polygon-blank-pink.png"
               alt="polygon"
             />
-          </>
+          </div>
         </div>
       </div>
     </div>
