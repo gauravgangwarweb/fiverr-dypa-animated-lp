@@ -11,7 +11,7 @@ function App() {
       <div
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
-        className="w-full h-screen hidden lg:flex flex-col justify-center items-center relative"
+        className="w-full h-[700px] hidden lg:flex flex-col justify-center items-center relative"
       >
         <h3 className="text-[#4663AC] text-6xl font-semibold">
           Rejoignez MySite
@@ -259,7 +259,7 @@ function App() {
         onMouseLeave={() => setIsHovering(false)}
         className=" w-full block lg:hide"
       >
-        <div className="max-w-[320px] w-full h-[36rem] mx-auto relative flex flex-col items-center justify-center my-auto">
+        <div className="max-w-[320px] w-full h-[36rem] mx-auto relative flex lg:hidden flex-col items-center justify-center my-auto">
           <h3 className="text-[#4663AC] text-4xl text-center font-semibold">
             Rejoignez <br /> MySite
           </h3>
